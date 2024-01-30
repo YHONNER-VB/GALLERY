@@ -1,0 +1,26 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 3%;
+   
+   
+  
+
+    
+  }
+  body{
+    padding: 10px 10px;
+  }
+
+  img {
+    border: 5px solid rgb(0, 153, 255);
+    border-radius: 8px;
+    width: 100%;
+    margin: 10px 0; 
+    
+  }
+  img:hover{
+    scale: 115%;
+    border-color: rgb(127, 8, 237);
+  }
